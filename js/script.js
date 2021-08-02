@@ -49,3 +49,8 @@ $(document).ready(function () {
         this.delivery = delivery;
     }
     
+    Total.prototype.finalTotal = function () {
+        return this.price * this.quantity + this.delivery;
+    };
+    
+
