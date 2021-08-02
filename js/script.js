@@ -43,3 +43,9 @@ $(document).ready(function () {
         }
 
     });
+    function Total(price, quantity, delivery) {
+        this.price = price;
+        this.quantity = quantity;
+        this.delivery = delivery;
+    }
+    
