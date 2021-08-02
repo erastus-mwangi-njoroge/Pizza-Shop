@@ -1,3 +1,9 @@
 #nav{
     background-color: rgb(140, 233, 140)!important;
 }
+.headers{
+    font-family: 'Style Script', cursive;
+    text-align: center;
+    color: red;
+    font-size: 2em;
+}
