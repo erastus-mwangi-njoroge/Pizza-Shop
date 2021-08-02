@@ -60,3 +60,9 @@ $(document).ready(function () {
         this.topping = topping;
     }
     
+    Order.prototype.fullOrder = function () {
+        return  this.topping + "topping and " + this.crust + " as crust.";
+    };
+
+
+});
